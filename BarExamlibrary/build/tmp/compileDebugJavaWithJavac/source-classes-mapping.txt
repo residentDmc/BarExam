@@ -1,0 +1,36 @@
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/vesam/barexamlibrary/interfaces/OnCreateCameraImageFile.java
+ com.vesam.barexamlibrary.interfaces.OnCreateCameraImageFile
+com/vesam/barexamlibrary/BR.java
+ com.vesam.barexamlibrary.BR
+com/vesam/barexamlibrary/DataBindingTriggerClass.java
+ com.vesam.barexamlibrary.DataBindingTriggerClass
+com/vesam/barexamlibrary/utils/image/BaseTransformer.java
+ com.vesam.barexamlibrary.utils.image.BaseTransformer
+com/vesam/barexamlibrary/utils/type_converters/ToStringConverterFactory.java
+ com.vesam.barexamlibrary.utils.type_converters.ToStringConverterFactory
+com/vesam/barexamlibrary/utils/music_manager/Sound.java
+ com.vesam.barexamlibrary.utils.music_manager.Sound
+com/vesam/barexamlibrary/BuildConfig.java
+ com.vesam.barexamlibrary.BuildConfig
+com/vesam/barexamlibrary/utils/custom_view/progress_bar/CustomProgressBar.java
+ com.vesam.barexamlibrary.utils.custom_view.progress_bar.CustomProgressBar
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/vesam/barexamlibrary/DataBinderMapperImpl.java
+ com.vesam.barexamlibrary.DataBinderMapperImpl
+ com.vesam.barexamlibrary.DataBinderMapperImpl$InnerBrLookup
+ com.vesam.barexamlibrary.DataBinderMapperImpl$InnerLayoutIdLookup
+com/vesam/barexamlibrary/utils/image/ZoomOutSlideTransformer.java
+ com.vesam.barexamlibrary.utils.image.ZoomOutSlideTransformer
+com/vesam/barexamlibrary/databinding/ActivityQuizBinding.java
+ com.vesam.barexamlibrary.databinding.ActivityQuizBinding
+com/vesam/barexamlibrary/databinding/ItemCategoryBinding.java
+ com.vesam.barexamlibrary.databinding.ItemCategoryBinding
+com/vesam/barexamlibrary/utils/tools/NetworkTools.java
+ com.vesam.barexamlibrary.utils.tools.NetworkTools
+com/vesam/barexamlibrary/databinding/FragmentCategoryBinding.java
+ com.vesam.barexamlibrary.databinding.FragmentCategoryBinding
+com/vesam/barexamlibrary/databinding/ToastLayoutBinding.java
+ com.vesam.barexamlibrary.databinding.ToastLayoutBinding

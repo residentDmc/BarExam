@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rcCategory" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="lnParent" type="id" />
+    <item name="txtTitle" type="id" />
+</resources>
