@@ -10,4 +10,9 @@
         android:name="com.vesam.barexamlibrary.ui.view.fragment.CategoryFragment"
         android:label="fragment_category"
         tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.vesam.barexamlibrary.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
 </navigation>

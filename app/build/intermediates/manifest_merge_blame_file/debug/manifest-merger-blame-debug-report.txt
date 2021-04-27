@@ -21,57 +21,57 @@
 13-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-63
 14
 15    <application
-15-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:5:5-25:19
-16        android:name="com.vesam.barexamlibrary.utils.application.AppQuiz"
-16-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-74
+15-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:5:5-26:19
+16        android:name="com.vesam.barexamapplication.App"
+16-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:6:9-28
 17        android:allowBackup="true"
-17-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:6:9-35
+17-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:7:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.3.2] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\68600a5be4367d49d50b69b04e4caf8f\core-1.3.2\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:7:9-43
+20-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:8:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:8:9-41
+21-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:9:9-41
 22        android:networkSecurityConfig="@xml/network_security_config"
-22-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-69
+22-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-69
 23        android:requestLegacyExternalStorage="true"
-23-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-52
+23-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-52
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:9:9-54
+24-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:10:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:10:9-35
+25-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:11:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.BarExamApplication"
-27-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:11:9-56
+27-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:12:9-56
 28        android:usesCleartextTraffic="true" >
-28-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-44
+28-->[:BarExamlibrary] C:\Users\Android\AndroidStudioProjects\BarExamApplication\BarExamlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-44
 29        <activity android:name="com.vesam.barexamapplication.MainActivity" >
-29-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:12:9-18:20
-29-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:12:19-47
+29-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:13:9-19:20
+29-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:13:19-47
 30            <intent-filter>
-30-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:13:13-17:29
+30-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:14:13-18:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:14:17-69
-31-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:14:25-66
+31-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:15:17-69
+31-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:15:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:16:17-77
-33-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:16:27-74
+33-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:17:17-77
+33-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:17:27-74
 34            </intent-filter>
 35        </activity>
 36        <activity
-36-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:20:9-24:57
+36-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:21:9-25:57
 37            android:name="com.vesam.barexamlibrary.ui.view.activity.QuizActivity"
-37-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:20:19-88
+37-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:21:19-88
 38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-38-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:21:13-83
+38-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:22:13-83
 39            android:screenOrientation="portrait"
-39-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:22:13-49
+39-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:23:13-49
 40            android:theme="@style/Theme.BarExamApplication"
-40-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:23:13-60
+40-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:24:13-60
 41            android:windowSoftInputMode="adjustResize" />
-41-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:24:13-55
+41-->C:\Users\Android\AndroidStudioProjects\BarExamApplication\app\src\main\AndroidManifest.xml:25:13-55
 42        <activity
 42-->[com.github.tcking:giraffeplayer2:0.1.25] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\2c74f8abf97fff2f95aa3f3581f8f9e8\jetified-giraffeplayer2-0.1.25\AndroidManifest.xml:19:9-22:54
 43            android:name="tcking.github.com.giraffeplayer2.PlayerActivity"

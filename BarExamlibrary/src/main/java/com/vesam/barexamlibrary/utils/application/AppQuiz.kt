@@ -34,10 +34,9 @@ class AppQuiz : MultiDexApplication() {
 
     }
 
-    override fun onCreate() {
-        super.onCreate()
+    fun init(context: Context) {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
-        context = applicationContext
+        AppQuiz.context = context
         ViewPump.init(
             ViewPump.builder()
                 .addInterceptor(
@@ -51,7 +50,7 @@ class AppQuiz : MultiDexApplication() {
                 .build()
         )
         startKoin {
-            androidContext(this@AppQuiz)
+            androidContext(context)
             modules(listOf(appModule, adapterModule, DatabaseModule, repoModule, viewModelModule))
         }
     }

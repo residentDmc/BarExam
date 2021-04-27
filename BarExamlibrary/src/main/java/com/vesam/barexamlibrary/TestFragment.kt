@@ -1,0 +1,76 @@
+package com.vesam.barexamlibrary
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.vesam.barexamlibrary.databinding.FragmentCategoryBinding
+import com.vesam.barexamlibrary.databinding.FragmentTestBinding
+import com.vesam.barexamlibrary.ui.view.adapter.category_list.CategoryAdapter
+import com.vesam.barexamlibrary.utils.application.AppQuiz
+import org.koin.android.ext.android.inject
+
+class TestFragment : Fragment() {
+
+    private lateinit var binding: FragmentTestBinding
+    private val navController: NavController by inject()
+    private val categoryAdapter: CategoryAdapter by inject()
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        binding = FragmentTestBinding.inflate(layoutInflater)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        try {
+            initAction()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun initAction() {
+        initToolbar()
+        initAdapter()
+    }
+
+    private fun initAdapter() {
+        binding.rcTest.layoutManager =
+            LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
+        binding.rcTest.setHasFixedSize(true)
+        binding.rcTest.adapter = categoryAdapter
+        categoryAdapter.updateList(getList())
+    }
+
+
+    private fun getList(): List<String> {
+        val categoryList: ArrayList<String> = ArrayList()
+        categoryList.add("حقوق و جزا")
+        categoryList.add("دعوی خانوادگی")
+        return categoryList
+    }
+
+    private fun initToolbar() {
+        initAppCompatActivityToolbar()
+    }
+
+    private fun initAppCompatActivityToolbar() {
+        (AppQuiz.activity as AppCompatActivity).setSupportActionBar(binding.toolbar)
+        (AppQuiz.activity as AppCompatActivity).supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        binding.toolbar.setNavigationIcon(R.drawable.ic_arrow_back_toolbar)
+        binding.toolbar.setNavigationOnClickListener { initFinish() }
+    }
+
+    private fun initFinish() {
+        AppQuiz.activity.finish()
+    }
+}

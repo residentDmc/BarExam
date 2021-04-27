@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name="com.vesam.barexamlibrary.utils.application.AppQuiz"
+        android:name="com.vesam.barexamapplication.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
